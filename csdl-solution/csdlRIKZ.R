@@ -1,5 +1,5 @@
 #Thiết lập thư mục hiện hành
-setwd("D:\\Giang Day\\R Programming\\Chapter 6")
+setwd("D:\\Download_D\\Chapter 6")
 #RIKZ.txt
 Benthic <- read.table("RIKZ.txt", header = TRUE)
 names(Benthic)

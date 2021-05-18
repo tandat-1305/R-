@@ -1,7 +1,7 @@
 #Solutions Chapter 6. Function...
 # Exercise 1 #This code is computer specific.
 # Set working direction (folder)
-setwd(".................")
+setwd("D:\\Download_D")
 Convert temperature.xls => temperature.txt
 #Declare a frame variable to store temperature.txt data. In my case, the separate between two columns is *** signal
 TP <- read.table(file = "Temperature.txt", header = TRUE, dec = ".") 

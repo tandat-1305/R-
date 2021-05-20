@@ -1,4 +1,4 @@
-setwd('D:\\bai_tap_relax\\R\\bt_18_5_21')
+setwd('D:\\R\\C7_18_05_21')
 #Chương 5 => plot => biểu đồ dạng x, y
 #Thêm một số tool cho vẽ biểu đồ
 #Phân tích dữ liệu

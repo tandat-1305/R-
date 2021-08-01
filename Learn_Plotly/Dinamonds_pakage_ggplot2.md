@@ -1,4 +1,4 @@
-dư liệu dinamonds, pakage = "ggplot2" 
+# Dữ liệu liệu dinamonds, pakage = "ggplot2" 
 
 carat: trọng lượng viên kim cương
 

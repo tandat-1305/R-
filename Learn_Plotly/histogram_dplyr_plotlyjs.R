@@ -9,18 +9,18 @@ plot_ly(diamonds, x = ~cut)
 #Bieu do nhiet (heatmap)
 plot_ly(diamonds, x = ~cut, y = ~clarity)
 
-#Bieu do thanh né tránh (Dodged bar chart)
+#Bieu do thanh nÃ© trÃ¡nh (Dodged bar chart)
 plot_ly(diamonds, x = ~cut, color = ~clarity, colors = "Accent")
 
 #
 plot_ly(diamonds,
         x = ~cut,
-        color = I("red"),       # Màu thanh
-        stroke = I("black"),    # Màu vi???n (outline)
+        color = I("red"),       # MÃ u thanh
+        stroke = I("black"),    # MÃ u vi???n (outline)
         span = I(2)             # D??? d???m c???a vi???n
 )
 
-#Su dung %>% doc du lieu tu trái sang phai
+#Su dung %>% doc du lieu tu trÃ¡i sang phai
 diamonds %>%
   plot_ly(x = ~cut) %>%
   layout(tittle = "My beautiful histogram")

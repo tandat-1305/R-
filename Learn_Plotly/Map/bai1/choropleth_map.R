@@ -48,6 +48,7 @@ minwage_graph = plot_geo(minwage_df,
   colorbar(tickprefix = "$")            #Them $ vao thanh giai thich
 minwage_graph
 
+
 #https://dplyr.tidyverse.org/reference/mutate.html
 #https://plotly.com/r/hover-text-and-formatting/
 #https://plotly.com/r/text-and-annotations/

@@ -6,7 +6,7 @@ library(readr)
 states = read_csv("states.csv")
 
 minwage_df = read_csv("Minimum Wage Data.csv") %>%
-  inner_join(states, by.x = State, by.x = state) %>%
+  inner_join(states, by.x = State, by.y = state) %>%
   select(Year, State, Code, Wage = High.Value) %>%
   mutate(hover = paste0(State, "\n$", Wage)) #Them cot "hover" gia tri "State $Wage"
 

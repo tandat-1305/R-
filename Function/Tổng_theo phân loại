@@ -1,1 +1,5 @@
+Ví dụ tính tổng.
 https://stackoverflow.com/questions/1660124/how-to-sum-a-variable-by-group
+
+aggregate(): hàm chuyên dùng tính toán, thống kê tập hợp con
+https://www.datasciencemadesimple.com/aggregate-function-in-r/

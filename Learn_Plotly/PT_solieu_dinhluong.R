@@ -45,3 +45,4 @@ fig <- fig %>%
          yaxis = list(title ="Percentage (%)"),
          font = fontStyle)
 fig
+

@@ -17,22 +17,22 @@ y4 <- c(0,0,0)
 #Tao bang
 data <- data.frame(x, y, y2, y3, y4)
 names(data)[1]<-paste("Year")
-names(data)[2]<-paste("Kh� gi???i")
-names(data)[3]<-paste("H???c l???i")
-names(data)[4]<-paste("H???c b???ng")
+names(data)[2]<-paste("Khá giỏi")
+names(data)[3]<-paste("Họcc lại")
+names(data)[4]<-paste("Học bổng")
 
 #Ve bieu do cot 
 
 fig <- data %>% plot_ly()
-fig <- fig %>% add_trace(x = ~x, y = ~y, type = 'bar', name = "Kh� gi???i",
+fig <- fig %>% add_trace(x = ~x, y = ~y, type = 'bar', name = "Khá giỏi",
                          text = y, textposition = 'auto',
                          marker = list(color = '#38EB00',
                                        line = list(color = 'rgb(8,48,107)', width = 1.5)))
-fig <- fig %>% add_trace(x = ~x, y = ~y2, type = 'bar', name = "H???c l???i",
+fig <- fig %>% add_trace(x = ~x, y = ~y2, type = 'bar', name = "Học lại",
                          text = y2, textposition = 'auto',
                          marker = list(color = '#E85D15',
                                        line = list(color = 'rgb(8,48,107)', width = 1.5)))
-fig <- fig %>% add_trace(x = ~x, y = ~y3, type = 'bar', name = "H???c b???ng",
+fig <- fig %>% add_trace(x = ~x, y = ~y3, type = 'bar', name = "Học bổng",
                          text = y3, textposition = 'auto',
                          marker = list(color = '#2C2CE8',
                                        line = list(color = 'rgb(8,48,107)', width = 1.5)))

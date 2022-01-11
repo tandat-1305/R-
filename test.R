@@ -42,6 +42,5 @@ bd3 <- plot_ly(movies, y = ~year, x =~Danh_gia,
                color = ~Danh_gia, type = "box") %>%
   layout(title = 'Su tuong quan giua danh gia qua cac nam',
          xaxis = list(title="Danh gia"),
-         yaxis = list(title="nam"),
-         font = fontStyle)
+         yaxis = list(title="nam"))
 bd3
